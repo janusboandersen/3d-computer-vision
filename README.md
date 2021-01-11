@@ -1,2 +1,12 @@
-# 3d-computer-vision
-Sparse 3D reconstruction and depth-based segmentation using correspondences between multiple views, established with Harris corners and BRIEF feature descriptors
+# 3D Computer Vision
+
+This project develops a pipeline for sparse 3D reconstruction and depth-based segmentation from two views.
+
+- Images are acquired using a calibrated camera (intrinsics).
+- Correspondences between two views are established from Harris corners and BRIEF feature descriptors, with subsequent brute-force search using the Hamming distance and Lowe's Ratio Test.
+- Relative camera pose (extrinsics - translation and rotation) is estimated using epipolar geometry.
+- 3D reconstruction is done by triangulation after removal of epipolar outliers, and results in generation of a world point cloud.
+- Segmentation and selection is enabled by morphological operations and region selection, using distance information from the point cloud.
+- Other uses are to develop into visual SLAM or use segmented images as input to machine learning applications (e.g. an image recognition system).
+
+![image](https://github.com/janusboandersen/3d-computer-vision/blob/main/img/cover.png)
