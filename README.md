@@ -1,4 +1,4 @@
-# 3D Computer Vision
+# 3D Computer Vision :rocket:
 
 This project develops a pipeline for sparse 3D reconstruction and depth-based segmentation from two views. 
 
