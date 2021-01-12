@@ -1,8 +1,8 @@
 # 3D Computer Vision :rocket:
 
-This project develops a pipeline for sparse 3D reconstruction and depth-based segmentation from two views. 
+This project exploratively develops a pipeline for sparse 3D reconstruction and depth-based segmentation from two views. 
 
-The [report](https://github.com/janusboandersen/3d-computer-vision/blob/main/3D%20Vision%2C%20Two-view%20Correspondence%2C%203D%20Reconstruction%20and%20Depth-based%20Segmentation.pdf) covers design and development, theory and algorithm review, and exposition of developed Matlab code. 
+The [report](https://github.com/janusboandersen/3d-computer-vision/blob/main/3D%20Vision%2C%20Two-view%20Correspondence%2C%203D%20Reconstruction%20and%20Depth-based%20Segmentation.pdf) covers design and development, theory and algorithm review, and exposition of developed Matlab code. The [slides](https://github.com/janusboandersen/3d-computer-vision/blob/main/slides-3D%20Vision.pdf) introduce the project and give an overview of parts of the pipeline.
 
 The code is fused with LaTeX into a single [matlab file](https://github.com/janusboandersen/3d-computer-vision/blob/main/3dcv_janus.m) that is either run directly or used to generate a report. If making a report, export to a `.tex` file using the `.xsl`-stylesheet, and compile with LuaLatex.
 
